@@ -1,0 +1,27 @@
+{
+  "name": "skilltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node --files log-parser/log-parser.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/event-stream": "^4.0.0",
+    "@types/geoip-country": "^4.0.0",
+    "@types/useragent": "^2.3.1",
+    "typescript": "^4.6.2",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "event-stream": "^4.0.1",
+    "geoip-country": "^4.0.113",
+    "request": "^2.88.2",
+    "useragent": "^2.3.0",
+    "yamlparser": "0.0.2"
+  }
+}
